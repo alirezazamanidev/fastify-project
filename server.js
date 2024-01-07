@@ -1,5 +1,6 @@
 import fastifySwagger from '@fastify/swagger';
 import fastifySwaggerUi from '@fastify/swagger-ui';
+import './config/sequlize.config.js';
 import Fastify from 'fastify';
 import { fastifySwaggerConfig, fastifySwaggerUiConfig } from './config/swagger.config.js';
 const fastify=Fastify({logger:true})
